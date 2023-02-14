@@ -1,0 +1,17 @@
+<!-- home.html -->
+
+{% extends 'blogApp/base.html' %}
+
+{% load static %} <!-- Thêm dòng này để load tag static -->
+
+{% block content %}
+  <div class="container">
+    <div class="header">
+    
+      <h1>Trường Đại Học Văn Lang</h1>
+      <p>Chào mừng đến với trang web của chúng tôi</p>
+      <a href="{% url 'login' %}" class="btn btn-primary">Đăng nhập</a>
+      <a href="{% url 'Blogs' %}" class="btn btn-primary">Blog</a>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'blogApp/base.html' %}
+
+{% load static %} <!-- Thêm dòng này để load tag static -->
+
+{% block content %}
+    
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Login</h2>
+            {% if error %}
+            <p>{{ error }}</p>
+            {% endif %}
+            <form method="post" action="{% url 'login' %}">
+                {% csrf_token %}
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Mã sinh viên">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Ngày tháng năm sinh (YYYY-MM-DD)">
+                <input type="submit" value="Log in">
+            </form>
+        </div>
+      </div>
+{% endblock %}

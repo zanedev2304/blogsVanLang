@@ -1,0 +1,125 @@
+/* Tùy chỉnh tiêu đề trong các trang */
+h1 {
+    color: blue;
+  }
+  
+  /* Tùy chỉnh nút "submit" trong form */
+  button[type="submit"] {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Tùy chỉnh các liên kết trong các trang */
+  a {
+    color: red;
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form input[type="submit"]:hover {
+    background-color: #005A6E;
+  }
+  
+
+
+  /* CSS cho phần tiêu đề "All Blogs" */
+.blog-title {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* CSS cho phần hiển thị danh sách các bài viết */
+  .blog-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .blog-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+  }
+  
+  .blog-item h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-item p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* CSS cho phần nút "Create Blog" */
+  .create-blog {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .create-blog a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .create-blog a:hover {
+    background-color: #555;
+  }
+  
+  ul {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
+  
